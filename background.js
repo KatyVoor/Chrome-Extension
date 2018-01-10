@@ -3,6 +3,6 @@ chrome.browserAction.onClicked.addListener(function(activeTab){
     chrome.tabs.create({ url: newURL });
     var newURL = "https://www.npr.org/";
     chrome.tabs.create({ url: newURL });
-    var newURL = "https://www.npr.org/";
+    var newURL = "https://www.google.com/";
     chrome.tabs.create({ url: newURL });
   }); 
